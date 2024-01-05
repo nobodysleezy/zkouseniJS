@@ -1,0 +1,36 @@
+//1.metoda odmocnina
+function odmocnina(cislo) {
+    return Math.sqrt(cislo);
+}
+
+//2.Metoda z 5 cisel 
+function prumer(cislo1, cislo2, cislo3, cislo4, cislo5) {
+    var soucet = cislo1 + cislo2 + cislo3 + cislo4 + cislo5;
+    return soucet / 5; 
+}
+
+var cislo1 = 5;
+var cislo2 = 8;
+var cislo3 = 20;
+var cislo4 = 22;
+var cislo5 = 30;
+
+var prumer = prumer(cislo1, cislo2, cislo3, cislo4, cislo5);
+console.log("prumer je: " + prumer);
+
+
+//3. metoda lichost
+function Lichecislo(cislo) {
+    return cislo % 2 !== 0;
+}
+
+var cislo = 2;
+
+if (Lichecislo(cislo)) {
+    console.log(cislo + " je liche cislo.");
+} else {
+    console.log(cislo + " není liche cislo.");
+}
+
+//4.metoda zjisteni, zda je prvek v poli 
+
